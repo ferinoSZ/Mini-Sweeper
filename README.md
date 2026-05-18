@@ -109,20 +109,20 @@ Antes da data limite, garantam que o repositório de vocês possui:
 *(Instrução: Substituam os textos entre colchetes pelas informações do projeto de vocês)*
 
 ### 👥 Membros da Equipe
-1. [Nome do Aluno 1]
-2. [Nome do Aluno 2]
-3. [Nome do Aluno 3]
+1. Wesley Ferino de Carvalho
+2. Renan Queiroz Chaves
+3. Eduardo Rank
 
 ### 🧠 Arquitetura Escolhida
-* **Framework:** [Ex: TensorFlow/Keras ou Scikit-Learn]
-* **Tipo de Modelo:** [Ex: Rede Neural Convolucional (CNN), Perceptron Multicamadas (MLP), Random Forest]
-* **Camadas Ocultas:** [Ex: 2 camadas Densas de 128 neurônios, ou 1 camada Conv2D + Flatten]
-* **Função de Ativação de Saída:** [Ex: Softmax para 64 classes]
+* **Framework:** Scikit-Learn
+* **Tipo de Modelo:** Random Forest Classifier
+* **Camadas Ocultas:** Não se aplica. O modelo utiliza 100 árvores de decisão com profundidade máxima de 15 níveis.
+* **Função de Ativação de Saída:** Não se aplica. O modelo utiliza votação probabilística entre múltiplas árvores.
 
 ### 📊 Desempenho no Treino
-* **Acurácia Final de Treino:** [Ex: 85%]
-* **Função de Loss Utilizada:** [Ex: Categorical Crossentropy]
-* **Maior Dificuldade:** [Descrevam em 2 linhas o maior desafio que a equipe enfrentou. Ex: "A maior dificuldade foi converter as bandeiras do CSV num tensor NumPy sem quebrar a camada de Flatten."]
+* **Acurácia Final de Treino:** 84,52%
+* **Função de Loss Utilizada:** Não se aplica. O modelo utiliza critério de impureza de Gini.
+* **Maior Dificuldade:** A maior dificuldade foi interpretar o dataset com mais de 1 milhão de registros e ajustar os hiperparâmetros para melhorar a generalização sem overfitting.
 
 ---
 *Projeto desenvolvido para a disciplina de Fundamentos de IA - 2026.*
