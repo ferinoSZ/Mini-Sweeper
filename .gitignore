@@ -21,6 +21,8 @@ dataset/*.parquet
 dataset/*.pkl
 data/*.csv
 data/*.json
+*.csv
+*.pkl
 
 # C extensions
 *.so
